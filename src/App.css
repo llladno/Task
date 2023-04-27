@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+*{
+  font-family: 'Merriweather', serif;
+  background: #F6F3F3;
+  color: #343030;
+
+}
+.bar{
+  padding: 00px 0px 0px 0px;
+  font-size: 14px;
+  height: 96px;
+  border-bottom: 1px solid #E1E1E1;
+}
+
+.search{
+  padding-top: 3px;
+}
+.barinput{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  width:275px;
+  height:44px;
+  padding-left: 15px;
+  border: 1px solid #E1E1E1
+}
+
+.barinput:focus{
+  outline: none;
+  outline-offset: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  padding-right:49px;
+  display: block;
+  color: #343030;
+  text-align: center;
+  text-decoration: none;
+}
+
+.searchBtn{
+  color: #fff;
+  background: #403432;
+  border-radius: 0px;
+  padding: 16px 38px;
+}
+
+h1{
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+
+h2{
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+}
+
+h3{
+
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+h5{
+  padding: 0%;
+  margin: 0%;
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+}
+
+h6{
+  font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 150%;
+}
+
+.container{
+  margin: 45px 352px;
+}
+
+.placeCardStyle{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 39px;
+}
+
+img{
+  width: 280px;
+  height: 160px;
+}
+.cardno{
+  width: 280px;
+  height: 328px;
+  border: 1px solid #E1E1E1;
+  
+}
+.cardyes{
+  width: 280px;
+  height: 328px;
+  border: 1px solid #E1E1E1;
+  opacity: 0.5;
+}
+.cardh2, .cardp{
+  margin: 0px;
+}
+.buyactive{
+  margin-right:4px;
+  background: #382E2B;
+  color: #F6F3F3;
+  width: 116px;
+  height: 48px;
+  
+}
+
+.icon{
+  width: 40px;
+  height: 40px;
+  background: none;
+}
+.inObr{
+  background: #382E2B;
+  color: #F6F3F3;
+  width: 116px;
+  height: 48px;
+}
+.inBasket{
+  background: #5B3A32;
+  color: #F6F3F3;
+  width: 116px;
+  height: 48px;
+}
+
+button{
+  border: none;
+}
+
+.buyactive:hover{
+  background: #776763;
+}
+.cardp{
+  margin: auto;
+}
+.oldPrice{
+  padding-right: 10px;
+  color: #A0A0A0;
+  align-items: center;
+  text-decoration-line: line-through;
+}
+
+.cardstyle{
+  display: grid;
+  align-content:center;
+  padding-left: 10px;
+}
+
+.buyremove{
+  display: none;
+}
+
+.buyremoves{
+  width: 0px;
+  height: 0px;
+}
+
+.newPrice{
+}
+
+.sell{
+  width: 100%;
+  margin-top: 35px;
+  margin-left: 25px;  
+}
+
+
+.cardcontainer{
+  display: flex;
+  justify-content: space-around; 
+  margin-top: 23px; 
+}
+
+.sellcontainer{
+  margin-top: 23px; 
+}
+
+
+.navbar {
+  padding-top: 40px;
+  background: #ECEAEA;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbarInfo{
+  display: flex;
+  justify-content: space-between;
+}
+.navbarcontainer{
+  background: #ECEAEA;
+  display:flex;
+  justify-content:space-between;
+  margin-right:15.89%;
+  margin-left:23.33%;
+  align-items:center;
+  padding-bottom:45px
+}
+.navbarcontainer *{
+  background: #ECEAEA;
+}
+.photoCard{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 500px;
+}
+.info{
+  display: flex;
+  width: 55%;
+  padding-left: 50px;
+  margin-left: 400px;
+  border: 1px solid #E1E1E1;
+}
+.buyactiveCard{
+  margin: 70px 0px 0px 50px;
+  margin-right:4px;
+
+  background: #382E2B;
+  color: #F6F3F3;
+  width: 116px;
+  height: 48px;
+}
+
+.titletext{
+  padding-left: 24px; 
+  padding-top: 14px; 
+  cursor: pointer;
+}
+
+.titletext h2:hover{
+  color: #8d807d;
+}
+
+.barcontainer{
+  display: flex;
+  justify-content: space-between; 
+  margin-right: 18.33%; 
+  margin-left: 23.33%; align-items: center; 
+  padding-top: 20px
+}
