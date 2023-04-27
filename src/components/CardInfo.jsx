@@ -5,7 +5,7 @@ import photo1 from "./../img/1.png"
 import photo2 from "./../img/2.png"
 import photo3 from "./../img/3.png"
 import photo4 from "./../img/4.png"
-import icon1 from "./../img/icon1.png"
+import icon1 from "./../img/loadicon.png"
 
 function CardInfo() {
     const { title1, title2, oldPrice, newPrice, id } = useParams()

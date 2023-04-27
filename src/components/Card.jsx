@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import icon1 from "./../img/icon1.png"
+import icon1 from "./../img/loadicon.png"
 
 function Card(props) {
     let buyactive
